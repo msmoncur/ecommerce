@@ -97,7 +97,10 @@ h1{
   
   /* Responsive behavior */
   @media (max-width: 768px) {
+    /* .product-list  */
+      /* grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));  change column width */
+    
     .product-list {
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));  /* change column width */
+      grid-template-columns: repeat(2, 1fr);  /* change column width */
     }
   }
