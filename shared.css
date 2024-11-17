@@ -23,7 +23,7 @@
   h1{
     text-align:center;
     margin-top:10px;
-    font-family:'inter';
+    font-family:'inter', Arial, Helvetica, sans-serif; 
     font-size:40px;
   }
   
@@ -51,7 +51,7 @@
   nav li{
     text-decoration:none;
     list-style-type:none; 
-    font-family:'inter';
+    font-family:'inter', Arial, Helvetica, sans-serif; 
     color: white;
     padding: 0.3125rem 1.25rem;
     display: inline-block;
@@ -90,7 +90,7 @@ footer{
     display: inline; 
     padding:15px; 
     font-size:1 rem;
-    font-family: 'inter';
+    font-family: 'inter', Arial, Helvetica, sans-serif; 
     color:white;
 }
 
