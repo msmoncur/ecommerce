@@ -71,6 +71,10 @@ p{
     .show-on-desktop {
         display: none; /* Hide desktop content */
     }
+
+    h2{
+        font-size: 1.5rem;
+    }
 }
 
 /* Media Query for tablets and larger  */
