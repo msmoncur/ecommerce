@@ -79,6 +79,7 @@ footer{
     padding-left: 60px;
     padding-right: 60px; 
     text-align:center;
+    min-height:100px;
 }
 
 
