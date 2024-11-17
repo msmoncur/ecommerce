@@ -1,0 +1,102 @@
+/* css reset */
+*{
+  margin:0; 
+  padding:0; 
+  box-sizing: border-box;
+}
+
+body {
+  display:flex; 
+  flex-direction: column; 
+  min-height:100vh;
+  margin-bottom: 100px;
+}
+
+
+h1{
+  text-align:center;
+  margin-top:10px;
+  font-family:'inter', Arial, Helvetica, sans-serif; 
+  font-size:40px;
+}
+
+  /* styling for fileter */
+  label{
+    font-weight: bold;
+    font-family: 'inter', Arial, Helvetica, sans-serif; 
+  }
+
+  .sort-options select {
+    font-size: 1rem;
+    border:none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  /* product styling */
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+    justify-items: center;
+}
+  
+  /* Styling individual products */
+  .products {
+    background-color: #fff;  
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  /* Styling the product image */
+  .products img {
+    width: 100%; 
+    height: 400px;
+    object-fit: contain;
+  }
+  
+  /* Title styling */
+  .products .title {
+    font-size: 1.15rem;
+    font-family: 'inter', Arial, Helvetica, sans-serif; ;
+    font-weight: bold;
+    color: black; 
+    margin-bottom: 5px;
+    line-height: 1.3;
+  }
+  
+  /* Description styling */
+  .products .description {
+    font-size: 1rem;
+    font-family: 'inter', Arial, Helvetica, sans-serif; ;
+    color: black;
+    margin-bottom: 10px;
+    height: 40px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;  
+  }
+  
+  /* Price styling */
+  .products .price {
+    font-size: 1.2rem;
+    font-family:'inter', Arial, Helvetica, sans-serif; ;
+    font-weight:bold;
+    color: black; 
+  }
+
+
+
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));  /* change column width */
+    }
+  }

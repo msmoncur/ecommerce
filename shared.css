@@ -1,0 +1,139 @@
+/* css reset */
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+  }
+  
+  body {
+    display:flex; 
+    flex-direction: column; 
+    min-height:100vh;
+  }
+  
+  /* Navigation Bar styling */
+  nav{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white; 
+    height:11.875rem;
+  }
+  
+  h1{
+    text-align:center;
+    margin-top:10px;
+    font-family:'inter';
+    font-size:40px;
+  }
+  
+  .center{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .siteLogo{
+    height:7rem;
+    width:21rem;
+    object-fit: contain;
+  }
+
+  #shopping-bag{
+    height:2rem; 
+    width:2rem; 
+  }
+  
+  .wrapper{
+    text-align:center; 
+  }
+  
+  
+  nav li{
+    text-decoration:none;
+    list-style-type:none; 
+    font-family:'inter';
+    color: white;
+    padding: 0.3125rem 1.25rem;
+    display: inline-block;
+    margin: 0 0.625rem;
+    font-size: 1.25rem;
+  }
+
+  a{
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    text-decoration:none;
+    color:white;
+}
+
+/* footer styling */
+footer{
+    background-color:black; 
+    height:60px; 
+    width:100%;
+    position: relative;
+    top:100px; 
+    padding-left: 60px;
+    padding-right: 60px; 
+    text-align:center;
+}
+
+
+.footer-links li{
+    display:flex;
+    position:relative;
+    top: 20px; 
+    text-align:center;
+    display: inline; 
+    padding:15px; 
+    font-size:1 rem;
+    font-family: 'inter';
+    color:white;
+}
+
+
+
+/* Mobile and tablet resizing */
+
+/* Tablet-specific styling */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    footer {
+        padding-left: 40px; 
+        padding-right: 40px; 
+        height: 4rem; 
+    }
+
+    .footer-links li {
+        display: inline-block;  
+        padding: 12px 8px; 
+        font-size: 0.95rem; 
+    }
+}
+
+/* Mobile responsive styling */
+@media screen and (max-width: 768px) {
+  nav li{
+    font-size: 1rem;
+  }
+
+  #shopping-bag{
+    height:1.5rem; 
+    width:1.5rem; 
+  }
+
+
+    footer {
+        padding-left: 30px; 
+        padding-right: 30px; 
+        height: 4rem;
+    }
+
+    .footer-links li {
+        display: inline-block; 
+        padding: 10px 5px; 
+        font-size: 0.8rem; 
+    }
+}

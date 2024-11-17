@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactPage.css">
+    <link rel="stylesheet" href="shared.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <div class="center"><a href="index.html"><img class="siteLogo" src="images/siteLogo.jpg"></a></div>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><img id="shopping-bag" src ="images/shoppingBag.png"></li>
+        </ul>
+      </div>
+      </nav>
+<div class="content">
+    <div class = image-container>
+        <image class = "coverImage" src = "images/coverImage.jpg">
+    </div>
+    <div class = form-container>
+        <h1>CUSTOMER SERVICE</h1>
+        <h2>CUSTOMER INQUIRIES: HELP@ESPERAR.COM</h2>
+        <h3>SEND US A MESSAGE</h3>
+        <!-- contact form -->
+         <form id="contactForm">
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name" autocomplete="off">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" autocomplete="off">
+            <label for="number">PHONE NUMBER (OPTIONAL)</label>
+            <input type="tel" id="number" name="number" autocomplete="off">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message"></textarea>
+            <button type = "submit" id="submitButton"> SEND MESSAGE </button>
+         </form>
+    </div>
+</div>
+
+<footer>
+    <ul class="footer-links">
+      <li><a href="contact.html">Contact Us</a></li>
+        <li>Privacy Policy</li>
+        <li>All Rights Reserved &copy</li>
+        <li><a href="www.instagram.com">Instagram</a></li>
+    </ul>
+</footer>
+    <script src ="contactPage.js"></script>
+</body>
+</html>

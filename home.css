@@ -1,0 +1,85 @@
+/* css reset */
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display:flex; 
+    flex-direction: column; 
+    min-height:100vh;
+}
+
+
+.hero, .secondaryHero{
+    height: auto; 
+    width: 100%; 
+    object-fit: contain;
+}
+
+
+.infoSpace{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family:'inter', Arial, Helvetica, sans-serif; 
+    color:white;
+}
+
+
+p{
+    font-size:20px;
+    font-family:'inter', Arial, Helvetica, sans-serif; 
+    color:white;
+}
+
+.signature{
+    font-family:'inter', Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+.infoSpace a{
+    color:black;
+    text-decoration: underline;
+}
+
+.infoSpace a:visited{
+    color:white;
+}
+
+.collectionLink{
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+/* Media Query for Mobile Devices*/
+@media screen and (max-width: 767px) {
+    .show-on-mobile {
+        display: block; /* Show mobile content */
+    }
+
+    .show-on-desktop {
+        display: none; /* Hide desktop content */
+    }
+}
+
+/* Media Query for tablets and larger  */
+@media screen and (min-width: 768px) {
+    .show-on-desktop {
+        display: block; /* Show desktop content */
+    }
+
+    .show-on-mobile {
+        display: none; /* Hide mobile content */
+    }
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "image":"images/coat.jpg", 
+        "title": "NOUR HAMMOUR", 
+        "description": "Joni reversible shearling coat", 
+        "price": "$2,635"
+
+    }, 
+    {
+        "image":"images/collaredShirt.jpg", 
+        "title": "SAINT LAURENT", 
+        "description": "Cotton-twill shirt", 
+        "price": "$2,500"
+
+    }, 
+    {
+        "image":"images/dress.jpg", 
+        "title": "SAINT LAURENT", 
+        "description": "Lace-trimmed silk-satin midi dress", 
+        "price": "$4,900"
+
+    }, 
+    {
+        "image":"images/fragrance.jpg", 
+        "title": "TOM FORD BEAUTY", 
+        "description": "Eau de Parfum - Ebene Fume, 50ml", 
+        "price": "$295"
+
+    }, 
+    {
+        "image":"images/laceSandal.jpg", 
+        "title": "AQUAZZURA", 
+        "description": "Alex Riveierie 105 cutout leather sandals", 
+        "price": "$1,095"
+
+    }, 
+    {
+        "image":"images/leatherPants.jpg", 
+        "title": "TOM FORD", 
+        "description": "Paneled leather straight-leg pants", 
+        "price": "$4,450"
+
+    }, 
+    {
+        "image":"images/meshHeel.jpg", 
+        "title": "ALAIA", 
+        "description": "90 fishnet and patent-leather pumps", 
+        "price": "$1,050"
+
+    }, 
+    {
+        "image":"images/sherling.jpg", 
+        "title": "SAINT LAURENT", 
+        "description": "Shearling jacket", 
+        "price": "$9,800"
+
+    }, 
+    {
+        "image":"images/shoulderBag.jpg", 
+        "title": "ACNE STUDIOS", 
+        "description": "Multipocket leather shoulder bag", 
+        "price": "$1,650"
+
+    }, 
+    {
+        "image":"images/tanBlouse.jpg", 
+        "title": "SAINT LAURENT", 
+        "description": "Gathered tie-detailed silk-chiffon blouse", 
+        "price": "$2,200"
+
+    }, 
+    {
+        "image":"images/skirt.jpg", 
+        "title": "SAINT LAURENT", 
+        "description": "Wool midi skirt", 
+        "price": "$1,800"
+
+    }, 
+    {
+        "image":"images/suedeBag.jpg", 
+        "title": "METIER", 
+        "description": "Weekend XL leather-trimmed suede tote", 
+        "price": "$5,250"
+
+    }
+]

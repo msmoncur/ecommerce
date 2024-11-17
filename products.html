@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="productStyle.css">
+    <link rel="stylesheet" href="shared.css">
+    <title>Collection</title>
+</head>
+<body>
+    <nav>
+        <div class="center"><a href="index.html"><img class="siteLogo" src="images/siteLogo.jpg"></a></div>
+      <div class="wrapper">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><img id="shopping-bag" src ="images/shoppingBag.png"></li>
+          <!-- shopping icon logo -->
+        </ul>
+      </div>
+      </nav>
+
+      <div>
+        <h1>Season 25</h1>
+      </div>
+
+      <div class="sort-options">
+        <label for="sort-price">Filter by: </label>
+        <select id="sort-price">
+          <option value="default">Default</option>
+          <option value="asc">Low to High</option>
+          <option value="desc">High to Low</option>
+        </select>
+      </div>
+    <!-- link to JSON products  -->
+     <div class ="product-list"></div>
+
+     <footer>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact Us</a></li>
+            <li>Privacy Policy</li>
+            <li>All Rights Reserved &copy</li>
+            <li><a href="www.instagram.com">Instagram</a></li>
+        </ul>
+    </footer>
+    <script src ="script.js"></script>
+</body>
+</html>
