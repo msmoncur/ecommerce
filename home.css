@@ -13,7 +13,7 @@ body {
 }
 
 
-.Hero, .secondaryHero{
+.hero, .secondaryHero{
     height: auto; 
     width: 100%; 
     object-fit: contain;
